@@ -1,4 +1,3 @@
-# text_poker
 Implementation of a text based, heads up No-Limit Hold'em poker game with Deep Q learning agent training and testing on the environment.
 
 Consists of implementation of core game logic needed to play a game of heads up (2 player) NLHE poker, including things like player options (betting, checking, raising, etc),
