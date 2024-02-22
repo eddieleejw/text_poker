@@ -1,8 +1,7 @@
-Implementation of a text based, heads up No-Limit Hold'em poker game with Deep Q learning agent training and testing on the environment.
+Developed a text-based implementation of a No-Limit Hold'em poker game, featuring a Deep Q-Learning agent trained and tested within the environment.
 
-Consists of implementation of core game logic needed to play a game of heads up (2 player) NLHE poker, including things like player options (betting, checking, raising, etc),
-street structure (pre-flop, flop, turn, river), and a hand-ranking mechanism by which two sets of 7 card holdings can be compared based on the best 5 card combination.
+The project includes the comprehensive implementation of fundamental game mechanics essential for Heads-Up (2-player) NLHE poker. This includes the implementation of player actions such as betting, checking, and raising, as well as the delineation of game phases such as pre-flop, flop, turn, and river. Additionally, a hand-ranking mechanism was integrated to compare and evaluate two sets of 7-card holdings, based on the optimal 5-card combination.
 
-A text based interface is used to perform various actions like calling, folding, and raising.
+The user interface, designed for ease of interaction, allows players to execute various actions, including calling, folding, and raising.
 
-Furthermore, a deep Q learning agent was implemented in PyTorch and trained then tested against a randomly playing agent (AI that simply chooses random moves and bet sizes). 
+Moreover, a Deep Q-Learning agent was developed using PyTorch. This agent was trained and tested against a baseline AI opponent that plays random moves and bet sizes.
